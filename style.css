@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background-color: #6f8eb6;
+  line-height: 1.6;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px 0;
+    box-shadow: 0 auto;
+}
