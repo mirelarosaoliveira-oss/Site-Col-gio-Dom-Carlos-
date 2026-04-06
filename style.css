@@ -145,44 +145,80 @@ section h2::after {
   transition: 0.3s ease;
 }
 
-.card:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
 }
 
-.card h3{
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
   color: #1565c0;
   margin-bottom: 12px;
   font-size: 1.25rem;
 }
 
-.card p{
-    color: #4b5563;
+.card p {
+  color: #4b5563;
 }
 
 .agenda{
-    background-color: #eaf3ff;
-    border-radius: 18px;
-    padding: 35px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  background: #eaf3ff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
 .agenda ul{
-    list-style: none;
+  list-style: none;
 }
 .agenda ul li{
-    background-color: white;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 35px;
-    border-radius: 16px;
-    box-shadow: 0 8px 22ox rgba(0, 0, 0, 0.8);
+background: white;
+margin-bottom: 14px;
+padding: 16px 18px;
+border-left: 6px solid #1976d2;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+font-weight: 500;
 }
+
+.contato-box{
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 22ox rgba(0, 0, 0, 0.08);
+}
+
 .contato-box p{
-    margin-bottom: 12px;
-    font-size: 1rem;
+  margin-bottom: 12px;
+  font-size: 1rem;
 }
 
 .contato-box strong{
-    
+  color: #0d47a1;
+}
+
+footer{
+  background: #0b1f3a;
+  color: white;
+  text-align: center;
+  padding: 22px 15px;
+  margin-top: 40px;
+  font-size: 0.95rem;
+}
+
+/*RESPONSIVIDADE*/
+@media(max-width: 768px){
+  header h1{
+    font-size: 1.8rem;
+  }
 }
